@@ -1,0 +1,225 @@
+/* css for all */
+*{
+    margin: 0 0;
+    padding:  0 0;
+    font-family: monospace;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2%;
+}
+.img-responsive{
+    width: 100%;
+    height: 100%;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #080808;
+}
+a:hover{
+    color: gray;
+
+}
+ .menu ul li:hover{
+    background-color:gainsboro;
+    
+}
+.float-container{
+    margin-top: 300px;
+}
+.container-float{
+    position: relative;
+}
+h3{
+    margin-bottom: 10px;
+    color: #191919;
+    font-size: 20px;
+}
+h4{
+    font-size: 24px;
+    color: #19647e;
+}
+h5{
+    color:#080808;
+    font-size: 15px;
+}
+.place-price{
+    background-color: #e1e4ea;
+}
+
+
+
+/*css for navbar*/
+.navtop{
+    height: 68px;
+    background-color: #353535;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.menu{
+    line-height:60px;
+}
+.menu ul{
+    list-style-type: none;
+    margin-right: 20%;
+}
+.menu ul li{
+    border-right: 4px solid black;
+    display: inline;
+    margin-right: 10px;
+    padding: 2%;
+    font-weight: bold;
+}
+
+
+/* css for content*/
+.content{
+    background-image: url(../image/Imagetop.png);
+    padding: 7% 0;
+    height: 532px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.float-container h3{
+    font-size: 39px;
+    color: #fbfcfd;
+}
+.float-container h2{
+    font-size: 56px;
+    color: #55c5f6;
+}
+/* css for search*/
+.search{
+    margin-top: 10px;
+    background-image: url(../image/Imagesearch.png);
+    padding: 31px 0;
+    height: 225px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.search-text{
+    margin: 15px;
+}
+.search-text h3{
+    font-size: 26px;
+    color: #191919;
+}
+.search-text h4{
+    font-size: 20px;
+    padding-top: 15px;
+    color: #191919;
+
+}
+.search-pannel{
+    padding-top: 20px;
+}
+
+.search-pannel input{
+    background-color: #c6c6cb;
+    font-size: 20px;
+    border: none;
+    width: 425px;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+/* css for explore*/
+.box-3{
+    margin-left: 3%;
+    height: 270px;
+    width: 30%;
+    float: left;
+    margin: 1%;
+}
+/* css for hiking and treaking*/
+.hiking-treaking{
+    margin-top: 87px;
+    padding: 35px;
+    background-image: url(../image/Backgroundfirst.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 635px;
+}
+.hiking-treaking h2{
+    color: #191919;
+    font-size: 26px;
+}
+.hiking-treaking h4{
+    margin-top: 10px;
+    color: #191919;
+    font-size: 20px;
+
+}
+.place-price h5{
+    padding-top: 5px;
+    color:#080808;
+    font-size: 15px;
+
+}
+.place-price h4{
+    font-size: 24px;
+    color: #19647e;
+}
+.box{
+    margin-top: 15%;
+}
+/* css for readmore section*/
+.readmore{
+    margin-top: 63px;
+    background-image: url(../image/haveu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+}
+.readmore h3{
+    font-size: 30px;
+    font-weight: bolder;
+    color: gray;
+}
+label{
+    font-size: 36px;
+    color: #5cd0a6;
+}
+.readmore p{
+    color: gray;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.btn{
+    width: 242px;
+    height: 60px;
+    border: 4px solid gainsboro;
+    background-color: #353535;
+    border-radius: 40px;
+    color: white;
+    font-size: 25px;
+}
+.btn:hover{
+    background-color: #484545;
+    cursor: pointer;
+}
+/* css for footer*/
+.footer{
+    margin-top: 5px;
+    background-color: #353535;
+    height: 100px;
+
+}
